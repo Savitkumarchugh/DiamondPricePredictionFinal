@@ -36,7 +36,7 @@ def predict_datapoint():
 
         results = "$ {:.2f}".format(round(pred[0],2))
 
-        return render_template('form.html',final_result=results)
+        return render_template('result.html',final_result=results)
 
 
 
